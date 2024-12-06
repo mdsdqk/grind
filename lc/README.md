@@ -1,6 +1,6 @@
 # **Grind/LC**   
 
-This is the **`grind/lc`** section of this repository, where the focus is on tackling **DSA** problems one step at a time. This is the heart of the grind as we know it! 
+This is the **`grind/lc`** section of this repository, where the focus is on tackling **DSA** problems one step at a time - the heart of the grind as we know it! 
 
 ---
 
