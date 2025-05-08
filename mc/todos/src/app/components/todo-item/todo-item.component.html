@@ -1,1 +1,5 @@
-<p>todo-item works!</p>
+<div class="p-6 gap-4 flex items-center cursor-pointer">
+    <input type="checkbox" [(ngModel)]="todo().completed" (change)="onToggle()" [id]="`inp-chckbx-todo-${todo().id}`"/>
+
+    <label [for]="`inp-chckbx-todo-${todo().id}`">{{todo().todo}}</label>
+</div>

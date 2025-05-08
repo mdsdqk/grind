@@ -1,1 +1,11 @@
-<p>todos works!</p>
+<h1>
+    Todos
+</h1>
+
+@if(todos$ | async; as todos) {
+    <ul>
+        @for(todo of todos; track todo.id) {
+            <app-todo-item [todo]="todo"></app-todo-item>
+        }
+    </ul>
+}
